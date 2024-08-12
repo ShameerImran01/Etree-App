@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:layout_margin="5sp"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/background_gradient"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/categories_title"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="14dp"
+            android:layout_toStartOf="@+id/categories_image"
+            android:layout_toLeftOf="@+id/categories_image"
+            android:fontFamily="@font/aclonica"
+            android:text="Trees"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/categories_image"
+            android:layout_width="44dp"
+            android:layout_height="1113dp"
+
+            android:layout_alignParentRight="true"
+
+            android:src="@drawable/tree21" />>
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

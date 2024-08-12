@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30sp"
+    tools:context=".Thanks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/baumans"
+            android:gravity="center"
+            android:text="Thanks You"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="130dp"
+            android:fontFamily="@font/baumans"
+            android:gravity="center"
+            android:text="Your Order has been Confirmed"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+
+        <Button
+            android:id="@+id/ContinueB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:text="Continue Shoppping"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</ScrollView>

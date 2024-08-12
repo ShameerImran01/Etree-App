@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545330092673",
+    "project_id": "etree-1cad0",
+    "storage_bucket": "etree-1cad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545330092673:android:cd645d982c9cf6261c8b80",
+        "android_client_info": {
+          "package_name": "com.shameer.etree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545330092673-l1t7vqj4b2k62jhuco2s87q6u3mg4ccp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_sGLWPPHWuLcApzHeQhsPV6nuB-cKfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545330092673-l1t7vqj4b2k62jhuco2s87q6u3mg4ccp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

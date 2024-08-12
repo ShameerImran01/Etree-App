@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/category"
+            android:title="@string/all_categories" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/donation"
+            android:title="@string/donation" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/policy"
+            android:icon="@drawable/bottom_nav_profile_icon"
+            android:title="Policy"/>
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login"
+                    android:title="@string/login" />
+
+                <item
+                    android:id="@+id/nav_signin"
+                    android:icon="@drawable/signin"
+                    android:title="Signup" />
+                <item
+                    android:id="@+id/nav_dash"
+                    android:icon="@drawable/signin"
+                    android:title="Retailer" />
+                <item
+                    android:id="@+id/nav_sample"
+                    android:icon="@drawable/bottom_nav_manage_icon"
+                    android:title="Sample Product" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tree"
+                    android:icon="@drawable/tree22"
+                    android:title="@string/tree" />
+                <item
+                    android:id="@+id/nav_plant"
+                    android:icon="@drawable/plant22"
+                    android:title="@string/plant" />
+                <item
+                    android:id="@+id/nav_bush"
+                    android:icon="@drawable/bush22"
+                    android:title="@string/bush" />
+                <item
+                    android:id="@+id/nav_flowers"
+                    android:icon="@drawable/rose1"
+                    android:title="@string/rose" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
